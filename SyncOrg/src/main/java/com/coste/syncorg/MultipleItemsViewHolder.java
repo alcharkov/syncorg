@@ -1,6 +1,6 @@
 package com.coste.syncorg;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
 public class MultipleItemsViewHolder extends RecyclerView.ViewHolder {

@@ -3,7 +3,7 @@ package com.coste.syncorg.gui.wizard.wizards;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.Button;
 import android.widget.ListView;
 

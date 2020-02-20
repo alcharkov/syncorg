@@ -4,11 +4,9 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.widget.Toast;
 
-import com.coste.syncorg.orgdata.OrgFile;
-import com.coste.syncorg.services.PermissionManager;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.ResultCallback;
@@ -18,13 +16,6 @@ import com.google.android.gms.drive.DriveFolder;
 import com.google.android.gms.drive.DriveId;
 import com.google.android.gms.drive.Metadata;
 import com.google.android.gms.drive.MetadataBuffer;
-import com.google.android.gms.drive.MetadataChangeSet;
-
-import java.io.BufferedReader;
-import java.io.File;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.TreeSet;
 
 import static com.coste.syncorg.settings.SettingsActivity.DRIVE_ID;
 

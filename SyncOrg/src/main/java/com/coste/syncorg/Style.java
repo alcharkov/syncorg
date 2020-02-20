@@ -1,7 +1,7 @@
 package com.coste.syncorg;
 
 import android.content.Context;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 
 public class Style {
     public static int gray, red, green, yellow, blue, foreground, foregroundDark, black, background, highlightedBackground;
